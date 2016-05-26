@@ -18,11 +18,29 @@
             android:id="@+id/but_start"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="시작"/>
+            android:text="@string/but_text_start"/>
         <Button
             android:id="@+id/but_stop"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="끝"/>
+            android:text="@string/but_text_stop"/>
     </LinearLayout>
+    <ViewFlipper
+        android:id="@+id/view_flip"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/po1"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/po2"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/po3"/>
+
+    </ViewFlipper>
 </LinearLayout>
