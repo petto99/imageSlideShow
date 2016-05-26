@@ -24,23 +24,31 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/but_text_stop"/>
+        <Te
     </LinearLayout>
     <ViewFlipper
         android:id="@+id/view_flip"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <ImageView
+            android:src="@drawable/gong1"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:src="@drawable/po1"/>
+            android:layout_height="match_parent"/>
         <ImageView
+            android:src="@drawable/gong2"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:src="@drawable/po2"/>
+            android:layout_height="match_parent"/>
         <ImageView
+            android:src="@drawable/gong3"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:src="@drawable/po3"/>
-
+            android:layout_height="match_parent"/>
+        <ImageView
+            android:src="@drawable/gong5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <ImageView
+            android:src="@drawable/gong6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
     </ViewFlipper>
 </LinearLayout>
